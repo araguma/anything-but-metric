@@ -61,80 +61,90 @@ export const prefixMap: Record<Prefix, bigint | number> = {
 export const unitMap: Record<Unit, NotMetric[]> = {
     meter: [
         {
-            singular: 'Standard Drawer Wide',
-            plural: 'Standard Drawers Wide',
+            singular: 'Standard Drawer wide',
+            plural: 'Standard Drawers wide',
             value: 0.65,
         },
         {
-            singular: 'ROG Zephyrus M15 GU502LW_GU502LW Wide',
-            plural: 'ROG Zephyrus M15 GU502LW_GU502LW side by side Wide',
+            singular: 'ROG Zephyrus M15 GU502LW_GU502LW wide',
+            plural: 'ROG Zephyrus M15 GU502LW_GU502LW side by side',
             value: 0.358,
         },
         {
-            singular: 'Tidepod Container Wide',
-            plural: 'Tidepod Containers Wide',
+            singular: 'Tidepod Container wide',
+            plural: 'Tidepod Containers wide',
             value: 0.22,
         },
         {
-            singular: 'OnePlus 7T Long',
-            plural: 'OnePlus 7Ts Long',
+            singular: 'OnePlus 7T long',
+            plural: 'OnePlus 7Ts long',
             value: 0.16,
         },
         {
-            singular: 'Opened Balisong Long',
-            plural: 'Opened Balisongs Long',
+            singular: 'Opened Balisong long',
+            plural: 'Opened Balisongs long',
             value: 0.25,
         },
         {
-            singular: 'Raw Barilla Spaghetti Long',
-            plural: 'Raw Barilla Spaghettis Long',
+            singular: 'Raw Barilla Spaghetti long',
+            plural: 'Raw Barilla Spaghettis long',
             value: 0.25,
         },
         {
-            singular: 'Lipton Tea Box (104 ct) Wide',
-            plural: 'Lipton Tea Boxes (104 ct) Wide',
+            singular: 'Lipton Tea Box (104 ct) wide',
+            plural: 'Lipton Tea Boxes (104 ct) wide',
             value: 0.2,
         },
         {
-            singular: 'Negative Inch Long',
-            plural: 'Negative Inches Long',
+            singular: 'Negative Inch long',
+            plural: 'Negative Inches long',
             value: -0.0254,
         },
         {
-            singular: 'Mini Fridge Wide',
-            plural: 'Mini Fridges Wide',
+            singular: 'Mini Fridge wide',
+            plural: 'Mini Fridges wide',
             value: 0.47,
         },
         {
-            singular: 'Banana Long',
-            plural: 'Bananas Long',
+            singular: 'Banana long',
+            plural: 'Bananas long',
             value: 0.18,
         },
         {
-            singular: 'Adult Bengal Tiger Shark Long',
-            plural: 'Adult Bengal Tiger Sharks Long',
+            singular: 'Adult Bengal Tiger Shark long',
+            plural: 'Adult Bengal Tiger Sharks long',
             value: 4.24736,
         },
         {
             singular:
-                '2024 Trump Coin Trump Commemorative Coin Keepsake Coin 47th President Coin Long',
-            plural: '2024 Trump Coin Trump Commemorative Coin Keepsake Coin 47th President Coins Long',
+                '2024 Trump Coin Trump Commemorative Coin Keepsake Coin 47th President Coin long',
+            plural: '2024 Trump Coin Trump Commemorative Coin Keepsake Coin 47th President Coins long',
             value: 0.037,
         },
         {
-            singular: 'of However long this text is in VS Code',
-            plural: 'of However long this text is in VS Code',
+            singular: 'of however long this text is in VS Code',
+            plural: 'of however long this text is in VS Code',
             value: 0.079375,
         },
         {
-            singular: 'Imperial Carlos Long',
-            plural: 'Imperial Carloses Long',
+            singular: 'Carlos long',
+            plural: 'Carloses long',
             value: 1.54,
         },
         {
-            singular: 'Chick-fil-A Sauce Long',
-            plural: 'Chick-fil-A Sauces Long',
+            singular: 'Sauce long',
+            plural: 'Sauces long',
             value: 0.06,
+        },
+        {
+            singular: 'Asteroid the size of 18 walruses long',
+            plural: 'Asteroids the size of 18 walruses long',
+            value: 3.6,
+        },
+        {
+            singular: 'Cow long',
+            plural: 'Cows long',
+            value: 2.59,
         },
     ],
     gram: [
@@ -165,8 +175,8 @@ export const unitMap: Record<Unit, NotMetric[]> = {
         },
         {
             singular:
-                'Half a Rack of 3 Pairs of Dumbbell Weights Weighted at 3lbs, 5lbs, and 8lbs',
-            plural: 'Half a Rack of 3 Pairs of Dumbbell Weights Weighted at 3lbs, 5lbs, and 8lbs',
+                'half a Rack of 3 Pairs of Dumbbell Weights weighted at 3lbs, 5lbs, and 8lbs',
+            plural: 'half a Rack of 3 Pairs of Dumbbell Weights weighted at 3lbs, 5lbs, and 8lbs',
             value: 7257.48,
         },
         {
@@ -182,8 +192,8 @@ export const unitMap: Record<Unit, NotMetric[]> = {
     ],
     second: [
         {
-            singular: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X Long',
-            plural: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X Long',
+            singular: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X long',
+            plural: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X long',
             value: 212,
         },
     ],
