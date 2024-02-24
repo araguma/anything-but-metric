@@ -41,7 +41,7 @@ export default function Home() {
             <Header />
             <div className="grid flex-1 place-items-center portrait:pt-32 landscape:pl-32">
                 <div className="flex flex-col gap-8">
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-6">
                         <span className="text-6xl font-bold">
                             Anything but Metric
                         </span>
