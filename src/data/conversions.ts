@@ -182,8 +182,8 @@ export const unitMap: Record<Unit, NotMetric[]> = {
     ],
     second: [
         {
-            singular: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X',
-            plural: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X',
+            singular: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X Long',
+            plural: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X Long',
             value: 212,
         },
     ],
