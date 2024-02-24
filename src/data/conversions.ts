@@ -1,6 +1,6 @@
 import { NotMetric, Prefix, Unit } from '@/types'
 
-export const units = ['meter'] as const
+export const units = ['meter', 'gram', 'second'] as const
 
 export const prefixes = [
     'quetta',
@@ -61,49 +61,130 @@ export const prefixMap: Record<Prefix, bigint | number> = {
 export const unitMap: Record<Unit, NotMetric[]> = {
     meter: [
         {
-            singular: 'Standard Drawer',
-            plural: 'Standard Drawers',
+            singular: 'Standard Drawer Wide',
+            plural: 'Standard Drawers Wide',
             value: 0.65,
         },
         {
-            singular: 'ROG Zephyrus M15 GU502LW_GU502LW',
-            plural: 'ROG Zephyrus M15 GU502LW_GU502LW side by side',
+            singular: 'ROG Zephyrus M15 GU502LW_GU502LW Wide',
+            plural: 'ROG Zephyrus M15 GU502LW_GU502LW side by side Wide',
             value: 0.358,
         },
         {
-            singular: 'Tidepod Container',
-            plural: 'Tidepod Containers',
+            singular: 'Tidepod Container Wide',
+            plural: 'Tidepod Containers Wide',
             value: 0.22,
         },
         {
-            singular: 'OnePlus 7T',
-            plural: 'OnePlus 7Ts',
+            singular: 'OnePlus 7T Long',
+            plural: 'OnePlus 7Ts Long',
             value: 0.16,
         },
         {
-            singular: 'Opened Balisong',
-            plural: 'Opened Balisongs',
+            singular: 'Opened Balisong Long',
+            plural: 'Opened Balisongs Long',
             value: 0.25,
         },
         {
-            singular: 'Raw Barilla Spaghetti',
-            plural: 'Raw Barilla Spaghettis',
+            singular: 'Raw Barilla Spaghetti Long',
+            plural: 'Raw Barilla Spaghettis Long',
             value: 0.25,
         },
         {
-            singular: 'Lipton Tea Box (104 ct)',
-            plural: 'Lipton Tea Boxes (104 ct)',
+            singular: 'Lipton Tea Box (104 ct) Wide',
+            plural: 'Lipton Tea Boxes (104 ct) Wide',
             value: 0.2,
         },
         {
-            singular: 'Negative Inch',
-            plural: 'Negative Inches',
+            singular: 'Negative Inch Long',
+            plural: 'Negative Inches Long',
             value: -0.0254,
         },
         {
-            singular: 'Mini Fridge',
-            plural: 'Mini Fridges',
+            singular: 'Mini Fridge Wide',
+            plural: 'Mini Fridges Wide',
             value: 0.47,
+        },
+        {
+            singular: 'Banana Long',
+            plural: 'Bananas Long',
+            value: 0.18,
+        },
+        {
+            singular: 'Adult Bengal Tiger Shark Long',
+            plural: 'Adult Bengal Tiger Sharks Long',
+            value: 4.24736,
+        },
+        {
+            singular:
+                '2024 Trump Coin Trump Commemorative Coin Keepsake Coin 47th President Coin Long',
+            plural: '2024 Trump Coin Trump Commemorative Coin Keepsake Coin 47th President Coins Long',
+            value: 0.037,
+        },
+        {
+            singular: 'of However long this text is in VS Code',
+            plural: 'of However long this text is in VS Code',
+            value: 0.079375,
+        },
+        {
+            singular: 'Imperial Carlos Long',
+            plural: 'Imperial Carloses Long',
+            value: 1.54,
+        },
+        {
+            singular: 'Chick-fil-A Sauce Long',
+            plural: 'Chick-fil-A Sauces Long',
+            value: 0.06,
+        },
+    ],
+    gram: [
+        {
+            singular: 'Adult Indian Ringneck Parakeet',
+            plural: 'Adult Indian Ringneck Parakeets',
+            value: 120,
+        },
+        {
+            singular: '25-inch CRT TV',
+            plural: '25-inch CRT TVs',
+            value: 45000,
+        },
+        {
+            singular: '6.5in Wooden Spoon',
+            plural: '6.5in Wooden Spoons',
+            value: 2.67,
+        },
+        {
+            singular: '3.5in Floppy Disk',
+            plural: '3.5in Floppy Disks',
+            value: 20,
+        },
+        {
+            singular: 'Oreo',
+            plural: 'Oreos',
+            value: 11.3,
+        },
+        {
+            singular:
+                'Half a Rack of 3 Pairs of Dumbbell Weights Weighted at 3lbs, 5lbs, and 8lbs',
+            plural: 'Half a Rack of 3 Pairs of Dumbbell Weights Weighted at 3lbs, 5lbs, and 8lbs',
+            value: 7257.48,
+        },
+        {
+            singular: 'Waterproof Shower Speaker',
+            plural: 'Waterproof Shower Speakers',
+            value: 201,
+        },
+        {
+            singular: 'Heaviest White Sapote',
+            plural: 'Heaviest White Sapotes',
+            value: 700,
+        },
+    ],
+    second: [
+        {
+            singular: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X',
+            plural: 'https://youtu.be/dQw4w9WgXcQ?si=MCTnfL-eIUFzkZ5X',
+            value: 212,
         },
     ],
 }
