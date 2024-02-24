@@ -13,7 +13,7 @@ export default function Result({
 }: ResultProps) {
     return (
         <div {...props} className={cx('flex items-center gap-8', className)}>
-            <span className="text-6xl font-bold">=</span>
+            <span className="text-8xl font-bold">=</span>
             <div className="flex flex-col gap-4">
                 <span className="break-all text-8xl font-bold">{value}</span>
                 <span className="text-3xl font-bold">{unit}</span>
