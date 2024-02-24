@@ -96,9 +96,9 @@ export const unitMap: Record<Unit, NotMetric[]> = {
             value: 0.2,
         },
         {
-            singular: 'Inch',
-            plural: 'Inches',
-            value: 0.0254,
+            singular: 'Negative Inch',
+            plural: 'Negative Inches',
+            value: -0.0254,
         },
         {
             singular: 'Mini Fridge',
