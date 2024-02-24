@@ -175,8 +175,8 @@ export const unitMap: Record<Unit, NotMetric[]> = {
             value: 201,
         },
         {
-            singular: 'Heaviest White Sapote',
-            plural: 'Heaviest White Sapotes',
+            singular: 'of the Heaviest White Sapote',
+            plural: 'of the Heaviest White Sapotes',
             value: 700,
         },
     ],
