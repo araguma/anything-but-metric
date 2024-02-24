@@ -45,7 +45,7 @@ export default function Home() {
                         <span className="text-6xl font-bold">
                             Anything but Metric
                         </span>
-                        <span className="text-2xl text-press-7">
+                        <span className="text-xl text-press-7">
                             Welcome to a World of Inaccuracy
                         </span>
                     </div>
