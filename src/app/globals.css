@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --press-1: #f5f5f5;
+        --press-2: #e5e5e5;
+        --press-3: #d4d4d4;
+        --press-4: #a3a3a3;
+        --press-5: #737373;
+        --press-6: #525252;
+        --press-7: #404040;
+        --press-8: #262626;
+        --press-9: #171717;
+    }
+
+    .dark {
+        --press-1: #171717;
+        --press-2: #262626;
+        --press-3: #404040;
+        --press-4: #525252;
+        --press-5: #737373;
+        --press-6: #a3a3a3;
+        --press-7: #d4d4d4;
+        --press-8: #e5e5e5;
+        --press-9: #f5f5f5;
+    }
+}
+
+@layer base {
+    html,
+    body {
+        @apply h-full;
+    }
+    body {
+        @apply bg-press-1 text-press-9;
+    }
+}
