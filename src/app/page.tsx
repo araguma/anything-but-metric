@@ -39,7 +39,7 @@ export default function Home() {
     return (
         <div className="flex h-full p-8 portrait:flex-col portrait:gap-8">
             <Header />
-            <div className="grid flex-1 place-items-center portrait:pt-16 landscape:pl-32">
+            <div className="grid flex-1 place-items-center portrait:pt-32 landscape:pl-32">
                 <div className="flex flex-col gap-8">
                     <div className="flex flex-col gap-4">
                         <span className="text-6xl font-bold">
@@ -83,7 +83,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="grid flex-1 place-items-center portrait:pb-16 landscape:pr-32">
+            <div className="grid flex-1 place-items-center portrait:pb-32 landscape:pr-32">
                 {(() => {
                     const result = convert(
                         value,
