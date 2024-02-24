@@ -49,7 +49,7 @@ export default function Dropdown<T extends string>({
                 </div>
             </div>
             {open && (
-                <div className="absolute mt-2 flex max-w-96 flex-wrap rounded border border-press-3">
+                <div className="absolute mt-2 flex max-w-96 flex-wrap rounded border border-press-3 bg-press-1">
                     {values.map((value) => {
                         return (
                             <div
